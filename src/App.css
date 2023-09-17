@@ -1,0 +1,102 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn{
+    width: 300px;
+    height: 100px;
+    font-size: large;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-items: center;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #0d47a1;
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 1rem;
+}
+.back-btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.card{
+    height: auto;
+    width: 250px;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+    /* color: white; */
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0px auto;
+    gap: 1rem;
+    padding: 20px;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 50px auto;
+    gap: 1rem;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    background-color: whitesmoke;
+}
+.first-card{
+    height: 450px;
+    min-width: 100%;
+}
+.second-card{
+    margin: 10px;
+    place-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.third-card{
+    margin: 10px;
+    place-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.footer{
+    height: 200px;
+    min-width: 100%;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    place-items: center;
+    color: white;
+    background-color: #0d47a1;
+}
+.first-image{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 5px;
+}
+.second-image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* .second-image{
+    height: 300px;
+    background-image: url(https://media.istockphoto.com/id/1259086543/photo/crm-customer-relationship-management-for-business-sales-marketing-system-concept.jpg?s=612x612&w=0&k=20&c=bUpNVD1iOkCFk7mgCmL33upBEKy5yJoWUCJRwMnbPuk=);
+} */
+/* body{
+    background-image: url(https://media.istockphoto.com/id/1259086543/photo/crm-customer-relationship-management-for-business-sales-marketing-system-concept.jpg?s=612x612&w=0&k=20&c=bUpNVD1iOkCFk7mgCmL33upBEKy5yJoWUCJRwMnbPuk=);
+} */
